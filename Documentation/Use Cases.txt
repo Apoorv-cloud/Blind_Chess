@@ -1,0 +1,19 @@
+FUNCTIONALITY:
+When the user presses the single player button, the app brings them to a game setup screen.
+When the user presses the multiplayer button, the app will bring up a game lookup screen.
+When the user presses the settings button, the app will bring up an application settings screen.
+When the user presses the help button, the app will bring up a screen explaining how to play the game.
+
+COMPETITIVE PLAYABILITY: 
+When the user selects a CPU difficulty, the algorithm go down the search tree at the specified depth (e.g. difficulty of 1 will only look 1 step ahead)
+When the user finishes a game against another user, their elo is adjusted.
+When the user finishes a game against the CPU, their W/L is adjusted.
+When the user is playing against another player, a timer will run down to discourage endless games.
+
+CONVINIENCE: 
+When the user switches apps when playing single player, the game pauses and resumes when the user focuses back in on the app.
+When the user switches apps when playing against another player, the game will notify the user when it is their turn.
+When the user wants to play multiplayer against their friend, they can look up their friend's name to directly challenge them.
+When the user hold-presses on a piece, the places the piece can go are highlighted.
+
+

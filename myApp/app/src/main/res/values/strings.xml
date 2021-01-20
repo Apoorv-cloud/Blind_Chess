@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Blind Chess</string>
+    <string name="back"> Back </string>
+    <string name="play_game"> Play Game</string>
+    <color name="appBackgroundColor">#f2f2f2</color>
+    <string name="white_button_description"> White: </string>
+    <string name="black_button_description"> Black: </string>
+    <string name="CPU_difficulty_text"> CPU Difficulty: </string>
+    <string name="resume"> Resume </string>
+    <string name="pause"> Pause </string>
+    <string name="findGameString">Find Game</string>
+    <string name="facebook_app_id">156261791633621</string>
+    <string name="fb_login_protocol_scheme">fb156261791633621</string>
+    <string name="WelcomeMessage">Hello, welcome to Blind Chess\n</string>
+
+</resources>

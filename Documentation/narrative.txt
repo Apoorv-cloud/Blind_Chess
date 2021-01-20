@@ -1,0 +1,6 @@
+What is it?
+A game of chess with a twist: your opponent’s pieces are invisible to you. The player still has a little information, whenever a player moves a piece, the opponent knows what kind of piece moves.
+
+Why is it necessary?
+There is a long tradition of hidden information in games, but this is usually relegated to card games. Blind chess will test skills like reconnaissance for the opponent’s hidden pieces and deducing their strategy from what little they know of their movements. Some tactics that this adds over regular chess is that you can use rooks or bishops as sweepers to find enemy positions (you stop when you hit an opposing piece) or setting up pawns as mines to know when you are being infiltrated (if your piece is taken, you know which piece took it and where it is at that time).
+This game design adds a new layer that is not like other games of chess or hidden information games abailable to mobile apps.

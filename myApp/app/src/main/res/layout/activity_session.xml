@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.wenzla.testapp.SessionActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_v_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_h_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <Button
+        android:id="@+id/findSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Session"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_h_1" />
+
+    <TextView
+        android:id="@+id/currentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No session active"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/findSession"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_1" />
+
+    <Button
+        android:id="@+id/takeTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Take Turn"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_1"
+        app:layout_constraintTop_toBottomOf="@+id/currentInfo" />
+
+    <Button
+        android:id="@+id/endSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Disconnect"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_1"
+        app:layout_constraintTop_toBottomOf="@+id/takeTurn" />
+
+</android.support.constraint.ConstraintLayout>

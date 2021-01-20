@@ -1,0 +1,7 @@
+Must uniquely meet a clear need; - Searching "Blind Chess" on the google play store does not return our idea. 
+Must be well-designed (by following the process outlined in the course); - TBD
+Must have a UI (i.e., it cannot only be a background service); - Yes, you need a UI to play chess
+Must have a rich set of domain objects (at least three); - TBD
+Must have data that is persistent across sessions; - Maybe W/L or ELO?
+Must use one or more external services (e.g., maps); - Facebook/Google/Twitter/etc. Login?
+Must use one or more sensors (e.g., GPS, accelerometer, light sensor, etc.); - GPS to determine player location
