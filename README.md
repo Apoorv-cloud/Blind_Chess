@@ -1,5 +1,5 @@
 # BlindChess
-CSE 5236 Mobile App Projects
+A Mobile Application similar to the board-game Chess in which the opponent will not be able to see the player's pieces at the time of former's turn. 
 
 # MyApp Folder
 myApp contains the android source code.  Tested on Nexus 5X with Oreo.
